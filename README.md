@@ -1,5 +1,3 @@
-<!-- <div align="center"> -->
-
 # 🧠 100+ JavaScript Problem Solving Challenges
 
 [![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -11,20 +9,18 @@
 
 <br/>
 
-**Sirf syntax yaad karna kaafi nahi — asli game logic ka hai.**  
-Yeh repository isi soch ke sath bani hai.
-
-<!-- </div> -->
+**Just memorizing syntax is not enough — the real game is about logic.**  
+This repository was built with exactly that mindset.
 
 ---
 
 ## 📌 About This Repository
 
-Maine yeh repository isliye banayi kyunki ek waqt aaya jab mujhe laga ke tutorials dekh dekh ke kuch nahi hoga. Jab tak blank file kholke khud problem solve nahi karte, programming "samajh" mein nahi aati — sirf "pata" hoti hai.
+I created this repository because there came a point where I felt that just watching tutorials wasn't going to cut it. Programming doesn't truly "make sense" until you open a blank file and solve problems yourself — you only "know about" it, you don't actually understand it.
 
-Toh maine decide kiya ke ek structured approach se, problem by problem, apni logical thinking ko actually build karna hai. Koi shortcut nahi, koi copy-paste nahi. Sirf clean code, clear logic, aur documented learning.
+So I decided to take a structured, problem-by-problem approach to genuinely build my logical thinking. No shortcuts, no copy-paste. Just clean code, clear logic, and documented learning.
 
-Yeh repository **open-source** isliye rakhi hai taake community ke doosre developers aur absolute beginners bhi is structured flow se faida utha sakein — clean code patterns seekhein aur programming fundamentals properly samjhein.
+This repository is kept **open-source** so that other developers and absolute beginners in the community can also benefit from this structured flow — learn clean code patterns and properly understand programming fundamentals.
 
 ---
 
@@ -32,13 +28,13 @@ Yeh repository **open-source** isliye rakhi hai taake community ke doosre develo
 
 | Level | Topic | Problems | Status | Progress |
 |-------|-------|----------|--------|----------|
-| 1 | Absolute Beginner | 1–50 | 🔄 In Progress | `████░░░░░░` 21/50 |
+| 1 | Absolute Beginner | 1–50 | ✅ Completed | `██████████` 50/50 |
 | 2 | Strings | 51–80 | 🔒 Not Started | `░░░░░░░░░░` 0/30 |
 | 3 | Arrays | 81–120 | 🔒 Not Started | `░░░░░░░░░░` 0/40 |
 | 4 | Objects | 121–140 | 🔒 Not Started | `░░░░░░░░░░` 0/20 |
 | 5 | DOM Projects | 141–170 | 🔒 Not Started | `░░░░░░░░░░` 0/30 |
 | 6 | Advanced / Core CS | 171–200 | 🔒 Not Started | `░░░░░░░░░░` 0/30 |
-| | | **Total** | | **21 / 200 Completed** |
+| | | **Total** | | **50 / 200 Completed** |
 
 ---
 
@@ -63,16 +59,16 @@ Yeh repository **open-source** isliye rakhi hai taake community ke doosre develo
 
 ## 📐 File Architecture Template
 
-Har problem file is exact structured flow ko strictly follow karti hai:
+Every problem file strictly follows this exact structured flow:
 
 ```js
 // Problem #[Number]
 
 // Problem Statement:
-// [Kya solve karna hai]
+// [What needs to be solved]
 
 // Requirements:
-// [Validation rules aur constraints]
+// [Validation rules and constraints]
 
 // Approach:
 // 1. [Step-by-step logic plan]
@@ -91,7 +87,7 @@ console.log(solve(value));
 // [Expected result]
 
 // What I Learned:
-// - [Core concept jo is problem se seekha]
+// - [Core concept learned from this problem]
 ```
 
 ---
@@ -99,76 +95,76 @@ console.log(solve(value));
 ## 🚀 How to Use
 
 ```bash
-# Step 1: Repository clone karo
-git clone https://github.com/your-username/100+-js-questions.git
+# Step 1: Clone the repository
+git clone https://github.com/your-username/100-plus-js-questions.git
 
-# Step 2: Folder mein jao
-cd 100+-js-questions
+# Step 2: Navigate into the folder
+cd 100-plus-js-questions
 
-# Step 3: Koi bhi file run karo
+# Step 3: Run any file
 node level-1-absolute-beginner/001-question.js
 ```
 
-> **Note:** Sirf Node.js installed hona chahiye. Koi extra package ya dependency nahi hai.
+> **Note:** Only Node.js needs to be installed. No extra packages or dependencies required.
 
 ---
 
 ## 📁 Level 1 — Absolute Beginner (1–50)
 
-**Status: 🔄 In Progress — 21/50 Completed**
+**Status: ✅ Completed — 50/50**
 
 | # | Problem | Status | What I Learned |
 |---|---------|--------|----------------|
-| 01 | [Hello World](./level-1-absolute-beginner/001-question.js) | ✅ Done | JavaScript execution environment aur basic console output debug karna |
-| 02 | [Print Name](./level-1-absolute-beginner/002-question.js) | ✅ Done | Variables declare karna aur string concatenation ko handle karna |
-| 03 | [Add Numbers](./level-1-absolute-beginner/003-question.js) | ✅ Done | Basic arithmetic operators aur numbers ka addition logic |
-| 04 | [Subtract Numbers](./level-1-absolute-beginner/004-question.js) | ✅ Done | Arithmetic subtraction operation aur numerical evaluation handling |
-| 05 | [Multiply Numbers](./level-1-absolute-beginner/005-question.js) | ✅ Done | Multiplication algorithm execution aur product calculation techniques |
-| 06 | [Divide Numbers](./level-1-absolute-beginner/006-question.js) | ✅ Done | Division operation control aur quotients ko perfectly handle karna |
-| 07 | [Remainder](./level-1-absolute-beginner/007-question.js) | ✅ Done | Modulus operator `%` ka istemal cycle checks aur tracking mein |
-| 08 | [Even Odd](./level-1-absolute-beginner/008-question.js) | ✅ Done | Modulus algorithm use karte hue conditional control structures implement karna |
-| 09 | [Positive Negative](./level-1-absolute-beginner/009-question.js) | ✅ Done | Sign comparisons aur logic gates check for numeric inputs boundary cases |
-| 10 | [Swap Numbers](./level-1-absolute-beginner/010-question.js) | ✅ Done | Third variable ke bagair arithmetic shifting aur standard swapping logic |
-| 11 | [Largest of Two](./level-1-absolute-beginner/011-question.js) | ✅ Done | Binary logic comparison operators aur maximum value detect karna |
-| 12 | [Smallest of Two](./level-1-absolute-beginner/012-question.js) | ✅ Done | Binary minification filtering checks implement karna function core mein |
-| 13 | [Largest of Three](./level-1-absolute-beginner/013-question.js) | ✅ Done | Nested logical operators `&&` `\|\|` ka use complex comparisons mein |
-| 14 | [Leap Year](./level-1-absolute-beginner/014-question.js) | ✅ Done | Complex nested divisibility conditions check execution on calendar modules |
-| 15 | [Voting Eligibility](./level-1-absolute-beginner/015-question.js) | ✅ Done | Conditional age gate threshold filtering standard validations handle karna |
-| 16 | [Age Calculator](./level-1-absolute-beginner/016-question.js) | ✅ Done | Date objects manipulation aur temporal difference arithmetic calculation |
-| 17 | [Area Rectangle](./level-1-absolute-beginner/017-question.js) | ✅ Done | Formulas adaptation processing aur functional return pipeline operations |
-| 18 | [Area Circle](./level-1-absolute-beginner/018-question.js) | ✅ Done | Mathematical constants ka use dynamically jaise `Math.PI` |
-| 19 | [Perimeter Rectangle](./level-1-absolute-beginner/019-question.js) | ✅ Done | Defensive code constraints aur arithmetic operators hierarchy logic |
-| 20 | [Temperature Converter](./level-1-absolute-beginner/020-question.js) | ✅ Done | Formula coefficient transformation scaling logic dynamic precision ke sath |
-| 21 | [BMI Calculator](./level-1-absolute-beginner/021-question.js) | ✅ Done | Exponential numeric weight metric parsing aur evaluation ranges |
-| 22 | [Percentage Calculator](./level-1-absolute-beginner/022-question.js) | ⏳ Pending | — |
-| 23 | [Grade Calculator](./level-1-absolute-beginner/023-question.js) | ⏳ Pending | — |
-| 24 | [Simple Interest](./level-1-absolute-beginner/024-question.js) | ⏳ Pending | — |
-| 25 | [Compound Interest](./level-1-absolute-beginner/025-question.js) | ⏳ Pending | — |
-| 26 | [Minutes to Seconds](./level-1-absolute-beginner/026-question.js) | ⏳ Pending | — |
-| 27 | [Hours to Minutes](./level-1-absolute-beginner/027-question.js) | ⏳ Pending | — |
-| 28 | [Days to Hours](./level-1-absolute-beginner/028-question.js) | ⏳ Pending | — |
-| 29 | [Number to String](./level-1-absolute-beginner/029-question.js) | ⏳ Pending | — |
-| 30 | [String to Number](./level-1-absolute-beginner/030-question.js) | ⏳ Pending | — |
-| 31 | [Type Checker](./level-1-absolute-beginner/031-question.js) | ⏳ Pending | — |
-| 32 | [Square Number](./level-1-absolute-beginner/032-question.js) | ⏳ Pending | — |
-| 33 | [Cube Number](./level-1-absolute-beginner/033-question.js) | ⏳ Pending | — |
-| 34 | [Power Calculator](./level-1-absolute-beginner/034-question.js) | ⏳ Pending | — |
-| 35 | [Random Number](./level-1-absolute-beginner/035-question.js) | ⏳ Pending | — |
-| 36 | [Dice Roll](./level-1-absolute-beginner/036-question.js) | ⏳ Pending | — |
-| 37 | [Coin Toss](./level-1-absolute-beginner/037-question.js) | ⏳ Pending | — |
-| 38 | [OTP Generator](./level-1-absolute-beginner/038-question.js) | ⏳ Pending | — |
-| 39 | [Password Generator](./level-1-absolute-beginner/039-question.js) | ⏳ Pending | — |
-| 40 | [Multiplication Table](./level-1-absolute-beginner/040-question.js) | ⏳ Pending | — |
-| 41 | [Print 1–100](./level-1-absolute-beginner/041-question.js) | ⏳ Pending | — |
-| 42 | [Print Even Numbers](./level-1-absolute-beginner/042-question.js) | ⏳ Pending | — |
-| 43 | [Print Odd Numbers](./level-1-absolute-beginner/043-question.js) | ⏳ Pending | — |
-| 44 | [Sum 1–100](./level-1-absolute-beginner/044-question.js) | ⏳ Pending | — |
-| 45 | [Factorial](./level-1-absolute-beginner/045-question.js) | ⏳ Pending | — |
-| 46 | [Fibonacci](./level-1-absolute-beginner/046-question.js) | ⏳ Pending | — |
-| 47 | [Prime Number](./level-1-absolute-beginner/047-question.js) | ⏳ Pending | — |
-| 48 | [Armstrong Number](./level-1-absolute-beginner/048-question.js) | ⏳ Pending | — |
-| 49 | [Reverse Number](./level-1-absolute-beginner/049-question.js) | ⏳ Pending | — |
-| 50 | [Palindrome Number](./level-1-absolute-beginner/050-question.js) | ⏳ Pending | — |
+| 01 | [Hello World](./level-1-absolute-beginner/001-question.js) | ✅ Done | JavaScript execution environment and basic console output debugging |
+| 02 | [Print Name](./level-1-absolute-beginner/002-question.js) | ✅ Done | Declaring variables and handling string concatenation |
+| 03 | [Add Numbers](./level-1-absolute-beginner/003-question.js) | ✅ Done | Basic arithmetic operators and addition logic for numbers |
+| 04 | [Subtract Numbers](./level-1-absolute-beginner/004-question.js) | ✅ Done | Arithmetic subtraction operation and numerical evaluation handling |
+| 05 | [Multiply Numbers](./level-1-absolute-beginner/005-question.js) | ✅ Done | Multiplication algorithm execution and product calculation techniques |
+| 06 | [Divide Numbers](./level-1-absolute-beginner/006-question.js) | ✅ Done | Division operation control and perfectly handling quotients |
+| 07 | [Remainder](./level-1-absolute-beginner/007-question.js) | ✅ Done | Using the modulus operator `%` in cycle checks and tracking |
+| 08 | [Even Odd](./level-1-absolute-beginner/008-question.js) | ✅ Done | Implementing conditional control structures using modulus algorithm |
+| 09 | [Positive Negative](./level-1-absolute-beginner/009-question.js) | ✅ Done | Sign comparisons and logic gate checks for numeric input boundary cases |
+| 10 | [Swap Numbers](./level-1-absolute-beginner/010-question.js) | ✅ Done | Arithmetic shifting without a third variable and standard swapping logic |
+| 11 | [Largest of Two](./level-1-absolute-beginner/011-question.js) | ✅ Done | Binary logic comparison operators and detecting maximum value |
+| 12 | [Smallest of Two](./level-1-absolute-beginner/012-question.js) | ✅ Done | Implementing binary minification filtering checks in function core |
+| 13 | [Largest of Three](./level-1-absolute-beginner/013-question.js) | ✅ Done | Using nested logical operators `&&` `||` in complex comparisons |
+| 14 | [Leap Year](./level-1-absolute-beginner/014-question.js) | ✅ Done | Complex nested divisibility condition checks on calendar modules |
+| 15 | [Voting Eligibility](./level-1-absolute-beginner/015-question.js) | ✅ Done | Conditional age gate threshold filtering and standard validations |
+| 16 | [Age Calculator](./level-1-absolute-beginner/016-question.js) | ✅ Done | Date object manipulation and temporal difference arithmetic calculation |
+| 17 | [Area Rectangle](./level-1-absolute-beginner/017-question.js) | ✅ Done | Formula adaptation processing and functional return pipeline operations |
+| 18 | [Area Circle](./level-1-absolute-beginner/018-question.js) | ✅ Done | Using mathematical constants dynamically like `Math.PI` |
+| 19 | [Perimeter Rectangle](./level-1-absolute-beginner/019-question.js) | ✅ Done | Defensive code constraints and arithmetic operators hierarchy logic |
+| 20 | [Temperature Converter](./level-1-absolute-beginner/020-question.js) | ✅ Done | Formula coefficient transformation scaling logic with dynamic precision |
+| 21 | [BMI Calculator](./level-1-absolute-beginner/021-question.js) | ✅ Done | Exponential numeric weight metric parsing and evaluation ranges |
+| 22 | [Percentage Calculator](./level-1-absolute-beginner/022-question.js) | ✅ Done | Percentage formula application and output formatting |
+| 23 | [Grade Calculator](./level-1-absolute-beginner/023-question.js) | ✅ Done | Multi-branch conditional logic for grade range classification |
+| 24 | [Simple Interest](./level-1-absolute-beginner/024-question.js) | ✅ Done | Applying the SI formula and handling financial calculations |
+| 25 | [Compound Interest](./level-1-absolute-beginner/025-question.js) | ✅ Done | Using `Math.pow` for exponential growth in compound interest formula |
+| 26 | [Minutes to Seconds](./level-1-absolute-beginner/026-question.js) | ✅ Done | Unit conversion logic and multiplication-based transformations |
+| 27 | [Hours to Minutes](./level-1-absolute-beginner/027-question.js) | ✅ Done | Time unit conversion and chaining multiplication factors |
+| 28 | [Days to Hours](./level-1-absolute-beginner/028-question.js) | ✅ Done | Scaling time values across different units |
+| 29 | [Number to String](./level-1-absolute-beginner/029-question.js) | ✅ Done | Type coercion and `toString()` method usage |
+| 30 | [String to Number](./level-1-absolute-beginner/030-question.js) | ✅ Done | Parsing strings with `parseInt`, `parseFloat`, and `Number()` |
+| 31 | [Type Checker](./level-1-absolute-beginner/031-question.js) | ✅ Done | Using `typeof` operator to identify JavaScript data types |
+| 32 | [Square Number](./level-1-absolute-beginner/032-question.js) | ✅ Done | Exponentiation operator `**` and `Math.pow()` for squares |
+| 33 | [Cube Number](./level-1-absolute-beginner/033-question.js) | ✅ Done | Extending exponent logic to the power of 3 |
+| 34 | [Power Calculator](./level-1-absolute-beginner/034-question.js) | ✅ Done | Generic power function using `Math.pow` with dynamic exponents |
+| 35 | [Random Number](./level-1-absolute-beginner/035-question.js) | ✅ Done | Using `Math.random()` with scaling to generate ranged values |
+| 36 | [Dice Roll](./level-1-absolute-beginner/036-question.js) | ✅ Done | Constraining random output to 1–6 using floor and scaling |
+| 37 | [Coin Toss](./level-1-absolute-beginner/037-question.js) | ✅ Done | Binary random outcome simulation with conditional branching |
+| 38 | [OTP Generator](./level-1-absolute-beginner/038-question.js) | ✅ Done | Generating fixed-length numeric codes using random math |
+| 39 | [Password Generator](./level-1-absolute-beginner/039-question.js) | ✅ Done | Combining character sets and looping for secure random strings |
+| 40 | [Multiplication Table](./level-1-absolute-beginner/040-question.js) | ✅ Done | Loop-based output formatting and iterative multiplication |
+| 41 | [Print 1–100](./level-1-absolute-beginner/041-question.js) | ✅ Done | Basic for-loop iteration and sequential console output |
+| 42 | [Print Even Numbers](./level-1-absolute-beginner/042-question.js) | ✅ Done | Filtering loop output using modulus condition |
+| 43 | [Print Odd Numbers](./level-1-absolute-beginner/043-question.js) | ✅ Done | Inverted modulus filter for odd number detection |
+| 44 | [Sum 1–100](./level-1-absolute-beginner/044-question.js) | ✅ Done | Accumulator pattern and loop-based summation |
+| 45 | [Factorial](./level-1-absolute-beginner/045-question.js) | ✅ Done | Recursive and iterative approaches to factorial computation |
+| 46 | [Fibonacci](./level-1-absolute-beginner/046-question.js) | ✅ Done | Sequence generation using loop state variables |
+| 47 | [Prime Number](./level-1-absolute-beginner/047-question.js) | ✅ Done | Divisibility checks and early exit optimization |
+| 48 | [Armstrong Number](./level-1-absolute-beginner/048-question.js) | ✅ Done | Digit extraction and power-sum comparison logic |
+| 49 | [Reverse Number](./level-1-absolute-beginner/049-question.js) | ✅ Done | Modulus-based digit reversal algorithm |
+| 50 | [Palindrome Number](./level-1-absolute-beginner/050-question.js) | ✅ Done | Comparing original vs reversed number for palindrome check |
 
 ---
 
@@ -381,23 +377,23 @@ node level-1-absolute-beginner/001-question.js
 
 ## 🤝 Contributing
 
-Agar aap koi better solution ya alternative approach dena chahte hain toh PRs bilkul welcome hain.
+If you have a better solution or an alternative approach, PRs are absolutely welcome.
 
 ```bash
-# Fork karo → Clone karo → Branch banao → PR bhejo
+# Fork → Clone → Create Branch → Submit PR
 git checkout -b fix/001-better-approach
 ```
 
-Sirf yeh ensure karo ke aapka code file template structure follow kare aur "What I Learned" section filled ho.
+Just make sure your code follows the file template structure and the "What I Learned" section is filled in.
 
 ---
 
 ## 👨‍💻 Author
 
-**[Your Name]**
+**Jawwad Shah**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jawwad-shah)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jawwad-shah-js)
 
 ---
 
@@ -406,7 +402,7 @@ Sirf yeh ensure karo ke aapka code file template structure follow kare aur "What
 ```
 MIT License
 
-Copyright (c) 2025 [Your Name]
+Copyright (c) 2025 Jawwad Shah
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -422,7 +418,7 @@ Full license: [LICENSE](./LICENSE)
 
 <div align="center">
 
-**Agar yeh repository aapke kaam aayi toh ek ⭐ zaroor do — motivation milti hai aage badhte rehne ki.**
+**If this repository helped you, drop a ⭐ — it keeps the motivation alive to keep going.**
 
 *Built with consistency, not shortcuts.*
 
