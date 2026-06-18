@@ -29,7 +29,7 @@ This repository is kept **open-source** so that other developers and absolute be
 | Level | Topic | Problems | Status | Progress |
 |-------|-------|----------|--------|----------|
 | 1 | Absolute Beginner | 1–50 | ✅ Completed | `██████████` 50/50 |
-| 2 | Strings | 51–80 | 🔒 Not Started | `░░░░░░░░░░` 0/30 |
+| 2 | Strings | 51–80 | ✅ Completed | `██████████` 30/30 |
 | 3 | Arrays | 81–120 | 🔒 Not Started | `░░░░░░░░░░` 0/40 |
 | 4 | Objects | 121–140 | 🔒 Not Started | `░░░░░░░░░░` 0/20 |
 | 5 | DOM Projects | 141–170 | 🔒 Not Started | `░░░░░░░░░░` 0/30 |
@@ -115,41 +115,41 @@ node level-1-absolute-beginner/001-question.js
 
 | # | Problem | Status | What I Learned |
 |---|---------|--------|----------------|
-| 01 | [Hello World](./level-1-absolute-beginner/001-question.js) | ✅ Done | JavaScript execution environment and basic console output debugging |
-| 02 | [Print Name](./level-1-absolute-beginner/002-question.js) | ✅ Done | Declaring variables and handling string concatenation |
-| 03 | [Add Numbers](./level-1-absolute-beginner/003-question.js) | ✅ Done | Basic arithmetic operators and addition logic for numbers |
-| 04 | [Subtract Numbers](./level-1-absolute-beginner/004-question.js) | ✅ Done | Arithmetic subtraction operation and numerical evaluation handling |
-| 05 | [Multiply Numbers](./level-1-absolute-beginner/005-question.js) | ✅ Done | Multiplication algorithm execution and product calculation techniques |
-| 06 | [Divide Numbers](./level-1-absolute-beginner/006-question.js) | ✅ Done | Division operation control and perfectly handling quotients |
-| 07 | [Remainder](./level-1-absolute-beginner/007-question.js) | ✅ Done | Using the modulus operator `%` in cycle checks and tracking |
-| 08 | [Even Odd](./level-1-absolute-beginner/008-question.js) | ✅ Done | Implementing conditional control structures using modulus algorithm |
-| 09 | [Positive Negative](./level-1-absolute-beginner/009-question.js) | ✅ Done | Sign comparisons and logic gate checks for numeric input boundary cases |
-| 10 | [Swap Numbers](./level-1-absolute-beginner/010-question.js) | ✅ Done | Arithmetic shifting without a third variable and standard swapping logic |
-| 11 | [Largest of Two](./level-1-absolute-beginner/011-question.js) | ✅ Done | Binary logic comparison operators and detecting maximum value |
-| 12 | [Smallest of Two](./level-1-absolute-beginner/012-question.js) | ✅ Done | Implementing binary minification filtering checks in function core |
-| 13 | [Largest of Three](./level-1-absolute-beginner/013-question.js) | ✅ Done | Using nested logical operators `&&` `||` in complex comparisons |
-| 14 | [Leap Year](./level-1-absolute-beginner/014-question.js) | ✅ Done | Complex nested divisibility condition checks on calendar modules |
-| 15 | [Voting Eligibility](./level-1-absolute-beginner/015-question.js) | ✅ Done | Conditional age gate threshold filtering and standard validations |
-| 16 | [Age Calculator](./level-1-absolute-beginner/016-question.js) | ✅ Done | Date object manipulation and temporal difference arithmetic calculation |
-| 17 | [Area Rectangle](./level-1-absolute-beginner/017-question.js) | ✅ Done | Formula adaptation processing and functional return pipeline operations |
-| 18 | [Area Circle](./level-1-absolute-beginner/018-question.js) | ✅ Done | Using mathematical constants dynamically like `Math.PI` |
-| 19 | [Perimeter Rectangle](./level-1-absolute-beginner/019-question.js) | ✅ Done | Defensive code constraints and arithmetic operators hierarchy logic |
-| 20 | [Temperature Converter](./level-1-absolute-beginner/020-question.js) | ✅ Done | Formula coefficient transformation scaling logic with dynamic precision |
-| 21 | [BMI Calculator](./level-1-absolute-beginner/021-question.js) | ✅ Done | Exponential numeric weight metric parsing and evaluation ranges |
-| 22 | [Percentage Calculator](./level-1-absolute-beginner/022-question.js) | ✅ Done | Percentage formula application and output formatting |
-| 23 | [Grade Calculator](./level-1-absolute-beginner/023-question.js) | ✅ Done | Multi-branch conditional logic for grade range classification |
-| 24 | [Simple Interest](./level-1-absolute-beginner/024-question.js) | ✅ Done | Applying the SI formula and handling financial calculations |
-| 25 | [Compound Interest](./level-1-absolute-beginner/025-question.js) | ✅ Done | Using `Math.pow` for exponential growth in compound interest formula |
-| 26 | [Minutes to Seconds](./level-1-absolute-beginner/026-question.js) | ✅ Done | Unit conversion logic and multiplication-based transformations |
-| 27 | [Hours to Minutes](./level-1-absolute-beginner/027-question.js) | ✅ Done | Time unit conversion and chaining multiplication factors |
-| 28 | [Days to Hours](./level-1-absolute-beginner/028-question.js) | ✅ Done | Scaling time values across different units |
-| 29 | [Number to String](./level-1-absolute-beginner/029-question.js) | ✅ Done | Type coercion and `toString()` method usage |
-| 30 | [String to Number](./level-1-absolute-beginner/030-question.js) | ✅ Done | Parsing strings with `parseInt`, `parseFloat`, and `Number()` |
-| 31 | [Type Checker](./level-1-absolute-beginner/031-question.js) | ✅ Done | Using `typeof` operator to identify JavaScript data types |
-| 32 | [Square Number](./level-1-absolute-beginner/032-question.js) | ✅ Done | Exponentiation operator `**` and `Math.pow()` for squares |
-| 33 | [Cube Number](./level-1-absolute-beginner/033-question.js) | ✅ Done | Extending exponent logic to the power of 3 |
-| 34 | [Power Calculator](./level-1-absolute-beginner/034-question.js) | ✅ Done | Generic power function using `Math.pow` with dynamic exponents |
-| 35 | [Random Number](./level-1-absolute-beginner/035-question.js) | ✅ Done | Using `Math.random()` with scaling to generate ranged values |
+| 01 | [Hello World](./level-1-absolute-beginner/001-question.js) | ✅ Done | I learned to use const for fixed variables, double quotes for strings, and console.log() to print output. |
+| 02 | [Print Name](./level-1-absolute-beginner/002-question.js) | ✅ Done | I learned variable declaration, handling text strings, and printing them to the console using console.log(). |
+| 03 | [Add Numbers](./level-1-absolute-beginner/003-question.js) | ✅ Done | I learned functions, parameters, return values, addition, and template literals. |
+| 04 | [Subtract Numbers](./level-1-absolute-beginner/004-question.js) | ✅ Done | I learned how to declare and execute functions, pass multiple parameters, use the subtraction operator, and handle negative return values in JavaScript. |
+| 05 | [Multiply Numbers](./level-1-absolute-beginner/005-question.js) | ✅ Done | I learned to use the multiplication operator, create dynamic and reusable functions, and pass actual arguments when calling functions with parameters. |
+| 06 | [Divide Numbers](./level-1-absolute-beginner/006-question.js) | ✅ Done | I learned to use the division operator, handle automatic floating-point decimal outputs, and map arguments to parameters for dynamic function reusability. |
+| 07 | [Remainder](./level-1-absolute-beginner/007-question.js) | ✅ Done | I learned how to use the modulus operator to extract the remainder of a division operation and apply its practical logic in JavaScript. |
+| 08 | [Even Odd](./level-1-absolute-beginner/008-question.js) | ✅ Done | I learned to implement conditional `if` statements, use strict equality (`===`), apply the early return pattern to avoid `else` blocks, and check for even numbers using modulus parity logic. |
+| 09 | [Positive Negative](./level-1-absolute-beginner/009-question.js) | ✅ Done | I learned to chain ternary operators for handling multiple conditions in a single line, write cleaner multi-conditional logic, and correctly manage neutral edge cases like zero. |
+| 10 | [Swap Numbers](./level-1-absolute-beginner/010-question.js) | ✅ Done | I learned to use `let` for mutable variables, apply temporary storage logic (`temp`) to swap values safely, and utilize modern array destructuring (`[a, b] = [b, a]`) for one-line swaps. |
+| 11 | [Largest of Two](./level-1-absolute-beginner/011-question.js) | ✅ Done | I learned to compare numbers efficiently using conditional expressions, utilize the built-in `Math.max()` method to find maximum values, and apply multiple flexible approaches to solve a single logical problem. |
+| 12 | [Smallest of Two](./level-1-absolute-beginner/012-question.js) | ✅ Done | I learned to compare numbers to find the smallest value using expressions, utilize the built-in `Math.min()` method, and carefully audit copied templates to ensure accurate documentation. |
+| 13 | [Largest of Three](./level-1-absolute-beginner/013-question.js) | ✅ Done | I learned to use the logical AND (`&&`) operator to group multiple conditions, apply `else if` for clean conditional branching, and pass multiple arguments into `Math.max()` to find the highest value. |
+| 14 | [Leap Year](./level-1-absolute-beginner/014-question.js) | ✅ Done | I learned to combine logical AND (`&&`) and OR (`||`) operators for complex conditional logic, use strict inequality (`!==`), and handle real-world edge cases like historical calendar tracking rules. |
+| 15 | [Voting Eligibility](./level-1-absolute-beginner/015-question.js) | ✅ Done | I learned to write meaningful user-centric response strings, tailor edge-case logic to fit the application theme, and use relational operators (`<`, `<=`) to cleanly split logic into distinct age groups. |
+| 16 | [Age Calculator](./level-1-absolute-beginner/016-question.js) | ✅ Done | I learned to utilize the built-in `Date` object and `.getFullYear()` for dynamic date handling, write future-proof logic that adapts automatically over time, and combine runtime variables with historical parameters for real-world calculations. |
+| 17 | [Area Rectangle](./level-1-absolute-beginner/017-question.js) | ✅ Done | I learned to map geometric formulas into programmatic functions, process multiple independent numerical dimensions using multi-parameter computation, and use clear variable labeling like `length` and `width` to ensure high code readability. |
+| 18 | [Area Circle](./level-1-absolute-beginner/018-question.js) | ✅ Done | I learned `Math.PI` for precision, `Math.pow()` for exponents, and `.toFixed()` for decimals. |
+| 19 | [Perimeter Rectangle](./level-1-absolute-beginner/019-question.js) | ✅ Done | I learned perimeter logic, `throw new Error` for safety, and parenthesis precedence. |
+| 20 | [Temperature Converter](./level-1-absolute-beginner/020-question.js) | ✅ Done | I learned to return objects, use advanced string injection, and code thermal physics. |
+| 21 | [BMI Calculator](./level-1-absolute-beginner/021-question.js) | ✅ Done | I learned formula translation, unit normalization, and structured data returns. |
+| 22 | [Percentage Calculator](./level-1-absolute-beginner/022-question.js) | ✅ Done | I learned formula mapping, appending strings for context, and operator precedence. |
+| 23 | [Grade Calculator](./level-1-absolute-beginner/023-question.js) | ✅ Done | I learned logic multi-layering, range bound checking, and compound object outputs. |
+| 24 | [Simple Interest](./level-1-absolute-beginner/024-question.js) | ✅ Done | I learned financial algorithms, pro-rata breakdowns, and text humanization. |
+| 25 | [Compound Interest](./level-1-absolute-beginner/025-question.js) | ✅ Done | I learned formula documentation, compounding frequencies, `Math.pow()`, and financial logic precision. |
+| 26 | [Minutes to Seconds](./level-1-absolute-beginner/026-question.js) | ✅ Done | I learned ES6 arrow functions with implicit returns and shorthand time conversion. |
+| 27 | [Hours to Minutes](./level-1-absolute-beginner/027-question.js) | ✅ Done | I learned arrow function shorthand syntax and programmatic time scaling. |
+| 28 | [Days to Hours](./level-1-absolute-beginner/028-question.js) | ✅ Done | I learned time-constant validation and implicit return arrow syntax. |
+| 29 | [Number to String](./level-1-absolute-beginner/029-question.js) | ✅ Done | I learned defensive type checking with `typeof`, guard clauses, and string interpolation. |
+| 30 | [String to Number](./level-1-absolute-beginner/030-question.js) | ✅ Done | I learned reverse type casting with `Number()`, string validation, and type coercion safety. |
+| 31 | [Type Checker](./level-1-absolute-beginner/031-question.js) | ✅ Done | I learned dynamic type reflection using `typeof` and implicit metadata retrieval. |
+| 32 | [Square Number](./level-1-absolute-beginner/032-question.js) | ✅ Done | I learned comparative syntax using `` over `Math.pow`, and code cleanliness. |
+| 33 | [Cube Number](./level-1-absolute-beginner/033-question.js) | ✅ Done | I learned exponential scaling (cube vs square) and core reusability in testing. |
+| 34 | [Power Calculator](./level-1-absolute-beginner/034-question.js) | ✅ Done | I learned functional dynamism via flexible arguments and abstracted exponential structures. |
+| 35 | [Random Number](./level-1-absolute-beginner/035-question.js) | ✅ Done | I learned randomization mechanics and numeric range scaling to specific intervals. |
 | 36 | [Dice Roll](./level-1-absolute-beginner/036-question.js) | ✅ Done | Constraining random output to 1–6 using floor and scaling |
 | 37 | [Coin Toss](./level-1-absolute-beginner/037-question.js) | ✅ Done | Binary random outcome simulation with conditional branching |
 | 38 | [OTP Generator](./level-1-absolute-beginner/038-question.js) | ✅ Done | Generating fixed-length numeric codes using random math |
@@ -170,40 +170,40 @@ node level-1-absolute-beginner/001-question.js
 
 ## 📁 Level 2 — Strings (51–80)
 
-**Status: 🔒 Not Started Yet**
+**Status: ✅ Completed — 80/80**
 
-| # | Problem | Status |
-|---|---------|--------|
-| 51 | [Reverse String](./level-2-strings/051-question.js) | ⏳ Pending |
-| 52 | [Count Characters](./level-2-strings/052-question.js) | ⏳ Pending |
-| 53 | [Count Words](./level-2-strings/053-question.js) | ⏳ Pending |
-| 54 | [Count Vowels](./level-2-strings/054-question.js) | ⏳ Pending |
-| 55 | [Count Consonants](./level-2-strings/055-question.js) | ⏳ Pending |
-| 56 | [Convert Uppercase](./level-2-strings/056-question.js) | ⏳ Pending |
-| 57 | [Convert Lowercase](./level-2-strings/057-question.js) | ⏳ Pending |
-| 58 | [Capitalize First Letter](./level-2-strings/058-question.js) | ⏳ Pending |
-| 59 | [Capitalize Every Word](./level-2-strings/059-question.js) | ⏳ Pending |
-| 60 | [Remove Spaces](./level-2-strings/060-question.js) | ⏳ Pending |
-| 61 | [Replace Word](./level-2-strings/061-question.js) | ⏳ Pending |
-| 62 | [Extract Initials](./level-2-strings/062-question.js) | ⏳ Pending |
-| 63 | [Username Generator](./level-2-strings/063-question.js) | ⏳ Pending |
-| 64 | [Email Validator](./level-2-strings/064-question.js) | ⏳ Pending |
-| 65 | [URL Validator](./level-2-strings/065-question.js) | ⏳ Pending |
-| 66 | [Find Longest Word](./level-2-strings/066-question.js) | ⏳ Pending |
-| 67 | [Find Shortest Word](./level-2-strings/067-question.js) | ⏳ Pending |
-| 68 | [Check Palindrome String](./level-2-strings/068-question.js) | ⏳ Pending |
-| 69 | [Check Anagram](./level-2-strings/069-question.js) | ⏳ Pending |
-| 70 | [Count Occurrences](./level-2-strings/070-question.js) | ⏳ Pending |
-| 71 | [Remove Duplicate Characters](./level-2-strings/071-question.js) | ⏳ Pending |
-| 72 | [String Compression](./level-2-strings/072-question.js) | ⏳ Pending |
-| 73 | [Character Frequency](./level-2-strings/073-question.js) | ⏳ Pending |
-| 74 | [Reverse Words](./level-2-strings/074-question.js) | ⏳ Pending |
-| 75 | [Truncate String](./level-2-strings/075-question.js) | ⏳ Pending |
-| 76 | [Mask Credit Card](./level-2-strings/076-question.js) | ⏳ Pending |
-| 77 | [Generate Slug](./level-2-strings/077-question.js) | ⏳ Pending |
-| 78 | [Extract Hashtags](./level-2-strings/078-question.js) | ⏳ Pending |
-| 79 | [Extract Mentions](./level-2-strings/079-question.js) | ⏳ Pending |
-| 80 | [Word Frequency Counter](./level-2-strings/080-question.js) | ⏳ Pending |
+| # | Problem | Status | What I Learned |
+|---|---------|--------|----------------|
+| 51 | [Reverse String](./level-2-strings/051-question.js) | ✅ Done | Used `.trim()` to remove edge spaces, then split, reversed, and joined the string back. |
+| 52 | [Count Characters](./level-2-strings/052-question.js) | ✅ Done | `.length` gives a 1-based count and spaces are counted as characters too. |
+| 53 | [Count Words](./level-2-strings/053-question.js) | ✅ Done | Used `split(" ")` for word splitting and `/\s+/` regex for handling irregular spaces. |
+| 54 | [Count Vowels](./level-2-strings/054-question.js) | ✅ Done | Used `.includes()` to check each character against vowels with a `for...of` loop. |
+| 55 | [Count Consonants](./level-2-strings/055-question.js) | ✅ Done | Used `!includes()` to skip vowels and comparison operators to filter non-alphabetic characters. |
+| 56 | [Convert Uppercase](./level-2-strings/056-question.js) | ✅ Done | Chained `.trim()` with `.toUpperCase()` for clean output. |
+| 57 | [Convert Lowercase](./level-2-strings/057-question.js) | ✅ Done | Used `.toLowerCase()` after trimming for consistent, case-normalized output. |
+| 58 | [Capitalize First Letter](./level-2-strings/058-question.js) | ✅ Done | Used `.charAt(0)` to isolate the first character and `.slice()` for the rest. |
+| 59 | [Capitalize Every Word](./level-2-strings/059-question.js) | ✅ Done | Combined `split`, `map`, and `join` to capitalize the first letter of each word. |
+| 60 | [Remove Spaces](./level-2-strings/060-question.js) | ✅ Done | Used `/\s/g` regex with `.replace()` to remove all whitespace globally. |
+| 61 | [Replace Word](./level-2-strings/061-question.js) | ✅ Done | Used `.replace()` targeting the exact substring to swap words inside a string. |
+| 62 | [Extract Initials](./level-2-strings/062-question.js) | ✅ Done | Used `.charAt(0).toUpperCase()` on each word to extract and format initials. |
+| 63 | [Username Generator](./level-2-strings/063-question.js) | ✅ Done | Used nested object lookups, `Math.random()` for variety, and `/\s+/g` to strip spaces. |
+| 64 | [Email Validator](./level-2-strings/064-question.js) | ✅ Done | Built a regex pattern and used `.test()` to return a boolean validation result. |
+| 65 | [URL Validator](./level-2-strings/065-question.js) | ✅ Done | Added `localhost` as an explicit alternation in the regex to handle dev environment edge cases. |
+| 66 | [Find Longest Word](./level-2-strings/066-question.js) | ✅ Done | Initialized tracker with `""` and stored the actual word, not the boolean result. |
+| 67 | [Find Shortest Word](./level-2-strings/067-question.js) | ✅ Done | Seeded the tracker with `array[0]` instead of zero to avoid false minimum comparisons. |
+| 68 | [Check Palindrome String](./level-2-strings/068-question.js) | ✅ Done | Converted string to array, used `.reverse()`, then compared with the lowercased original. |
+| 69 | [Check Anagram](./level-2-strings/069-question.js) | ✅ Done | Checked length equality first, then sorted both strings and compared them. |
+| 70 | [Count Occurrences](./level-2-strings/070-question.js) | ✅ Done | Used `.reduce()` to build a frequency object with `|| 0` fallback for safe increments. |
+| 71 | [Remove Duplicate Characters](./level-2-strings/071-question.js) | ✅ Done | Passed string into `new Set()` for auto-deduplication, then spread back into an array. |
+| 72 | [String Compression](./level-2-strings/072-question.js) | ✅ Done | Used `str[i + 1]` look-ahead to group repeated chars, and compared lengths before returning. |
+| 73 | [Character Frequency](./level-2-strings/073-question.js) | ✅ Done | Reused the same frequency-map logic from problem 70 under a different context. |
+| 74 | [Reverse Words](./level-2-strings/074-question.js) | ✅ Done | Split on spaces to get words as array nodes, reversed the array, then joined back. |
+| 75 | [Truncate String](./level-2-strings/075-question.js) | ✅ Done | Used `.slice()` with a length limit and appended `...` when the string exceeded the threshold. |
+| 76 | [Mask Credit Card](./level-2-strings/076-question.js) | ✅ Done | Used `.repeat()` for masking and `.slice(-4)` to keep only the last four digits visible. |
+| 77 | [Generate Slug](./level-2-strings/077-question.js) | ✅ Done | Chained multiple regex replacements to lowercase and hyphenate the string into a URL slug. |
+| 78 | [Extract Hashtags](./level-2-strings/078-question.js) | ✅ Done | Used `string.match()` with a global regex including `[\w-]` to capture full hashtag tokens. |
+| 79 | [Extract Mentions](./level-2-strings/079-question.js) | ✅ Done | Used `@` as a lookup anchor in regex to extract user handles from unstructured text. |
+| 80 | [Word Frequency Counter](./level-2-strings/080-question.js) | ✅ Done | Used `.reduce()` with `/[a-z0-9-]+/g` regex to count clean word tokens from raw text. |
 
 ---
 
