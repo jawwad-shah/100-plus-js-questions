@@ -211,48 +211,83 @@ node level-1-absolute-beginner/001-question.js
 
 **Status: 🔒 Not Started Yet**
 
-| # | Problem | Status |
-|---|---------|--------|
-| 81 | [Sum Array](./level-3-arrays/081-question.js) | ⏳ Pending |
-| 82 | [Average Array](./level-3-arrays/082-question.js) | ⏳ Pending |
-| 83 | [Largest Element](./level-3-arrays/083-question.js) | ⏳ Pending |
-| 84 | [Smallest Element](./level-3-arrays/084-question.js) | ⏳ Pending |
-| 85 | [Second Largest](./level-3-arrays/085-question.js) | ⏳ Pending |
-| 86 | [Second Smallest](./level-3-arrays/086-question.js) | ⏳ Pending |
-| 87 | [Reverse Array](./level-3-arrays/087-question.js) | ⏳ Pending |
-| 88 | [Sort Ascending](./level-3-arrays/088-question.js) | ⏳ Pending |
-| 89 | [Sort Descending](./level-3-arrays/089-question.js) | ⏳ Pending |
-| 90 | [Remove Duplicates](./level-3-arrays/090-question.js) | ⏳ Pending |
-| 91 | [Merge Arrays](./level-3-arrays/091-question.js) | ⏳ Pending |
-| 92 | [Common Elements](./level-3-arrays/092-question.js) | ⏳ Pending |
-| 93 | [Missing Number](./level-3-arrays/093-question.js) | ⏳ Pending |
-| 94 | [Rotate Array](./level-3-arrays/094-question.js) | ⏳ Pending |
-| 95 | [Flatten Array](./level-3-arrays/095-question.js) | ⏳ Pending |
-| 96 | [Chunk Array](./level-3-arrays/096-question.js) | ⏳ Pending |
-| 97 | [Shuffle Array](./level-3-arrays/097-question.js) | ⏳ Pending |
-| 98 | [Find Max Frequency](./level-3-arrays/098-question.js) | ⏳ Pending |
-| 99 | [Count Occurrences](./level-3-arrays/099-question.js) | ⏳ Pending |
-| 100 | [Remove Falsy Values](./level-3-arrays/100-question.js) | ⏳ Pending |
-| 101 | [Filter Even Numbers](./level-3-arrays/101-question.js) | ⏳ Pending |
-| 102 | [Filter Odd Numbers](./level-3-arrays/102-question.js) | ⏳ Pending |
-| 103 | [Find Positive Numbers](./level-3-arrays/103-question.js) | ⏳ Pending |
-| 104 | [Find Negative Numbers](./level-3-arrays/104-question.js) | ⏳ Pending |
-| 105 | [Find Sum Greater Than X](./level-3-arrays/105-question.js) | ⏳ Pending |
-| 106 | [Group Numbers](./level-3-arrays/106-question.js) | ⏳ Pending |
-| 107 | [Find Pair Sum](./level-3-arrays/107-question.js) | ⏳ Pending |
-| 108 | [Find Duplicate Values](./level-3-arrays/108-question.js) | ⏳ Pending |
-| 109 | [Intersection Array](./level-3-arrays/109-question.js) | ⏳ Pending |
-| 110 | [Difference Array](./level-3-arrays/110-question.js) | ⏳ Pending |
-| 111 | [Unique Elements](./level-3-arrays/111-question.js) | ⏳ Pending |
-| 112 | [Move Zeros End](./level-3-arrays/112-question.js) | ⏳ Pending |
-| 113 | [Move Zeros Start](./level-3-arrays/113-question.js) | ⏳ Pending |
-| 114 | [Find Median](./level-3-arrays/114-question.js) | ⏳ Pending |
-| 115 | [Find Mode](./level-3-arrays/115-question.js) | ⏳ Pending |
-| 116 | [Find Range](./level-3-arrays/116-question.js) | ⏳ Pending |
-| 117 | [Product Array](./level-3-arrays/117-question.js) | ⏳ Pending |
-| 118 | [Running Sum](./level-3-arrays/118-question.js) | ⏳ Pending |
-| 119 | [Prefix Sum](./level-3-arrays/119-question.js) | ⏳ Pending |
-| 120 | [Sliding Window Sum](./level-3-arrays/120-question.js) | ⏳ Pending |
+| # | Problem | Status | What I Learned |
+|---|---------|--------|----------------|
+| 51 | [Reverse String](./level-2-strings/051-question.js) | ✅ Done | Used `.trim()` to remove edge spaces, then split, reversed, and joined the string back. |
+| 52 | [Count Characters](./level-2-strings/052-question.js) | ✅ Done | `.length` gives a 1-based count and spaces are counted as characters too. |
+| 53 | [Count Words](./level-2-strings/053-question.js) | ✅ Done | Used `split(" ")` for word splitting and `/\s+/` regex for handling irregular spaces. |
+| 54 | [Count Vowels](./level-2-strings/054-question.js) | ✅ Done | Used `.includes()` to check each character against vowels with a `for...of` loop. |
+| 55 | [Count Consonants](./level-2-strings/055-question.js) | ✅ Done | Used `!includes()` to skip vowels and comparison operators to filter non-alphabetic characters. |
+| 56 | [Convert Uppercase](./level-2-strings/056-question.js) | ✅ Done | Chained `.trim()` with `.toUpperCase()` for clean output. |
+| 57 | [Convert Lowercase](./level-2-strings/057-question.js) | ✅ Done | Used `.toLowerCase()` after trimming for consistent, case-normalized output. |
+| 58 | [Capitalize First Letter](./level-2-strings/058-question.js) | ✅ Done | Used `.charAt(0)` to isolate the first character and `.slice()` for the rest. |
+| 59 | [Capitalize Every Word](./level-2-strings/059-question.js) | ✅ Done | Combined `split`, `map`, and `join` to capitalize the first letter of each word. |
+| 60 | [Remove Spaces](./level-2-strings/060-question.js) | ✅ Done | Used `/\s/g` regex with `.replace()` to remove all whitespace globally. |
+| 61 | [Replace Word](./level-2-strings/061-question.js) | ✅ Done | Used `.replace()` targeting the exact substring to swap words inside a string. |
+| 62 | [Extract Initials](./level-2-strings/062-question.js) | ✅ Done | Used `.charAt(0).toUpperCase()` on each word to extract and format initials. |
+| 63 | [Username Generator](./level-2-strings/063-question.js) | ✅ Done | Used nested object lookups, `Math.random()` for variety, and `/\s+/g` to strip spaces. |
+| 64 | [Email Validator](./level-2-strings/064-question.js) | ✅ Done | Built a regex pattern and used `.test()` to return a boolean validation result. |
+| 65 | [URL Validator](./level-2-strings/065-question.js) | ✅ Done | Added `localhost` as an explicit alternation in the regex to handle dev environment edge cases. |
+| 66 | [Find Longest Word](./level-2-strings/066-question.js) | ✅ Done | Initialized tracker with `""` and stored the actual word, not the boolean result. |
+| 67 | [Find Shortest Word](./level-2-strings/067-question.js) | ✅ Done | Seeded the tracker with `array[0]` instead of zero to avoid false minimum comparisons. |
+| 68 | [Check Palindrome String](./level-2-strings/068-question.js) | ✅ Done | Converted string to array, used `.reverse()`, then compared with the lowercased original. |
+| 69 | [Check Anagram](./level-2-strings/069-question.js) | ✅ Done | Checked length equality first, then sorted both strings and compared them. |
+| 70 | [Count Occurrences](./level-2-strings/070-question.js) | ✅ Done | Used `.reduce()` to build a frequency object with `\|\| 0` fallback for safe increments. |
+| 71 | [Remove Duplicate Characters](./level-2-strings/071-question.js) | ✅ Done | Passed string into `new Set()` for auto-deduplication, then spread back into an array. |
+| 72 | [String Compression](./level-2-strings/072-question.js) | ✅ Done | Used `str[i + 1]` look-ahead to group repeated chars, and compared lengths before returning. |
+| 73 | [Character Frequency](./level-2-strings/073-question.js) | ✅ Done | Reused the same frequency-map logic from problem 70 under a different context. |
+| 74 | [Reverse Words](./level-2-strings/074-question.js) | ✅ Done | Split on spaces to get words as array nodes, reversed the array, then joined back. |
+| 75 | [Truncate String](./level-2-strings/075-question.js) | ✅ Done | Used `.slice()` with a length limit and appended `...` when the string exceeded the threshold. |
+| 76 | [Mask Credit Card](./level-2-strings/076-question.js) | ✅ Done | Used `.repeat()` for masking and `.slice(-4)` to keep only the last four digits visible. |
+| 77 | [Generate Slug](./level-2-strings/077-question.js) | ✅ Done | Chained multiple regex replacements to lowercase and hyphenate the string into a URL slug. |
+| 78 | [Extract Hashtags](./level-2-strings/078-question.js) | ✅ Done | Used `string.match()` with a global regex including `[\w-]` to capture full hashtag tokens. |
+| 79 | [Extract Mentions](./level-2-strings/079-question.js) | ✅ Done | Used `@` as a lookup anchor in regex to extract user handles from unstructured text. |
+| 80 | [Word Frequency Counter](./level-2-strings/080-question.js) | ✅ Done | Used `.reduce()` with `/[a-z0-9-]+/g` regex to count clean word tokens from raw text. |
+
+## Level 3 - Arrays
+
+| # | Problem | Status | What I Learned |
+|---|---------|--------|----------------|
+| 81 | [Sum Array](./level-3-arrays/081-question.js) | ✅ Done | Used `.reduce()` with `0` as the initial value to safely sum all elements including empty arrays. |
+| 82 | [Average Array](./level-3-arrays/082-question.js) | ✅ Done | Divided the reduced sum by array length and added a length check to avoid `NaN` on empty arrays. |
+| 83 | [Largest Element](./level-3-arrays/083-question.js) | ✅ Done | Spread the array into `Math.max()` to get the largest value without writing a manual loop. |
+| 84 | [Smallest Element](./level-3-arrays/084-question.js) | ✅ Done | Same as above but with `Math.min()`, and kept the function name matching its actual purpose. |
+| 85 | [Second Largest](./level-3-arrays/085-question.js) | ✅ Done | Removed duplicates with `Set` first, then sorted descending with `b - a` and picked index `[1]`. |
+| 86 | [Second Smallest](./level-3-arrays/086-question.js) | ✅ Done | Sorted ascending with `a - b` and checked length after filtering to avoid out-of-bounds on duplicate arrays. |
+| 87 | [Reverse Array](./level-3-arrays/087-question.js) | ✅ Done | Cloned the array with `[...]` before calling `.reverse()` to avoid mutating the original. |
+| 88 | [Sort Ascending](./level-3-arrays/088-question.js) | ✅ Done | Passed `a - b` to `.sort()` to force numeric order instead of the default string-based sorting. |
+| 89 | [Sort Descending](./level-3-arrays/089-question.js) | ✅ Done | Flipped the comparator to `b - a` for high-to-low ordering, and cloned first to keep the original intact. |
+| 90 | [Remove Duplicates](./level-3-arrays/090-question.js) | ✅ Done | Passed the array into `new Set()` and spread it back to get unique values in O(N) time. |
+| 91 | [Merge Arrays](./level-3-arrays/091-question.js) | ✅ Done | Used the spread operator inside a new array to combine two arrays without mutating either. |
+| 92 | [Common Elements](./level-3-arrays/092-question.js) | ✅ Done | Converted one array to a `Set` for O(1) lookups, then filtered the other array against it. |
+| 93 | [Missing Number](./level-3-arrays/093-question.js) | ✅ Done | Sorted the array first, then looped to find gaps between consecutive values. |
+| 94 | [Rotate Array](./level-3-arrays/094-question.js) | ✅ Done | Used `% length` to wrap the rotation count, then split and rejoined with `.slice()`. |
+| 95 | [Flatten Array](./level-3-arrays/095-question.js) | ✅ Done | Used `.flat(Infinity)` to collapse all nested layers regardless of depth. |
+| 96 | [Chunk Array](./level-3-arrays/096-question.js) | ✅ Done | Looped with a step equal to chunk size and used `.slice()` to cut segments, which handles the leftover tail automatically. |
+| 97 | [Shuffle Array](./level-3-arrays/097-question.js) | ✅ Done | Implemented Fisher-Yates shuffle with a decrementing loop and destructuring swap `[a, b] = [b, a]`. |
+| 98 | [Find Max Frequency](./level-3-arrays/098-question.js) | ✅ Done | Built a frequency object with `.reduce()`, then used `Object.entries()` to find the highest count. |
+| 99 | [Count Occurrences](./level-3-arrays/099-question.js) | ✅ Done | Used `.reduce()` with `\|\| 0` fallback to build a key-value frequency map cleanly. |
+| 100 | [Remove Falsy Values](./level-3-arrays/100-question.js) | ✅ Done | Passed `Boolean` directly into `.filter()` to remove all falsy values without writing a manual condition. |
+| 101 | [Filter Even Numbers](./level-3-arrays/101-question.js) | ✅ Done | Used `% 2 === 0` inside `.filter()` to extract even numbers without touching the original array. |
+| 102 | [Filter Odd Numbers](./level-3-arrays/102-question.js) | ✅ Done | Used `!== 0` with modulo instead of `=== 1` to safely handle negative odd numbers too. |
+| 103 | [Find Positive Numbers](./level-3-arrays/103-question.js) | ✅ Done | Used `> 0` in `.filter()` to exclude zero and negatives cleanly. |
+| 104 | [Find Negative Numbers](./level-3-arrays/104-question.js) | ✅ Done | Used `< 0` in `.filter()` to exclude zero and positives, and kept the function name descriptive. |
+| 105 | [Find Sum Greater Than X](./level-3-arrays/105-question.js) | ✅ Done | Used a conditional inside `.reduce()` to only add values greater than the given threshold `X`. |
+| 106 | [Group Numbers](./level-3-arrays/106-question.js) | ✅ Done | Used `.forEach()` for side-effect grouping into separate arrays instead of `.filter()`. |
+| 107 | [Find Pair Sum](./level-3-arrays/107-question.js) | ✅ Done | Tracked `target - current` in a `Set` for O(N) pair lookup instead of a nested loop. |
+| 108 | [Find Duplicate Values](./level-3-arrays/108-question.js) | ✅ Done | Used `.indexOf()` vs loop index mismatch to detect duplicates, then deduped results with `Set`. |
+| 109 | [Intersection Array](./level-3-arrays/109-question.js) | ✅ Done | Converted one array to a `Set` and used `.has()` inside `.filter()` for fast intersection. |
+| 110 | [Difference Array](./level-3-arrays/110-question.js) | ✅ Done | Used `!set.has()` inside `.filter()` to isolate elements unique to one array in O(N). |
+| 111 | [Unique Elements](./level-3-arrays/111-question.js) | ✅ Done | Passed the array into `new Set()` and spread it back to remove all duplicates. |
+| 112 | [Move Zeros End](./level-3-arrays/112-question.js) | ✅ Done | Used a two-pointer approach to shift non-zero values forward in-place without extra memory. |
+| 113 | [Move Zeros Start](./level-3-arrays/113-question.js) | ✅ Done | Ran the loop backwards to shift zeros toward the front without reversing or losing order. |
+| 114 | [Find Median](./level-3-arrays/114-question.js) | ✅ Done | Sorted a cloned array with `a - b`, then picked the middle index or averaged the two middle values for even lengths. |
+| 115 | [Find Mode](./level-3-arrays/115-question.js) | ✅ Done | Built a frequency map in O(N), then used `Object.entries()` to find the highest occurring value. |
+| 116 | [Find Range](./level-3-arrays/116-question.js) | ✅ Done | Subtracted `min` from `max` using spread with `Math.min/max` to get the range in one line. |
+| 117 | [Product Array](./level-3-arrays/117-question.js) | ✅ Done | Used prefix and suffix passes to compute the product of all elements except the current one without division. |
+| 118 | [Running Sum](./level-3-arrays/118-question.js) | ✅ Done | Used `.map()` with an external cumulative variable to build the running total array in one pass. |
+| 119 | [Prefix Sum](./level-3-arrays/119-question.js) | ✅ Done | Same logic as running sum — just a different name used in algorithmic contexts. |
+| 120 | [Sliding Window Sum](./level-3-arrays/120-question.js) | ✅ Done | Cached the first window sum, then slid it forward by adding the next element and dropping the first to avoid nested loops. |
 
 ---
 
