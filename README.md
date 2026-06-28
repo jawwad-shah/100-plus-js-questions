@@ -111,7 +111,7 @@ node level-1-absolute-beginner/001-question.js
 
 ## 📁 Level 1 — Absolute Beginner (1–50)
 
-**Status: ✅ Completed — 50/50**
+**Status: ✅ Completed**
 
 | # | Problem | Status | What I Learned |
 |---|---------|--------|----------------|
@@ -170,7 +170,7 @@ node level-1-absolute-beginner/001-question.js
 
 ## 📁 Level 2 — Strings (51–80)
 
-**Status: ✅ Completed — 80/80**
+**Status: ✅ Completed**
 
 | # | Problem | Status | What I Learned |
 |---|---------|--------|----------------|
@@ -209,7 +209,7 @@ node level-1-absolute-beginner/001-question.js
 
 ## 📁 Level 3 — Arrays (81–120)
 
-**Status: 🔒 Not Started Yet**
+**Status: ✅ Completed**
 
 | # | Problem | Status | What I Learned |
 |---|---------|--------|----------------|
@@ -245,6 +245,8 @@ node level-1-absolute-beginner/001-question.js
 | 80 | [Word Frequency Counter](./level-2-strings/080-question.js) | ✅ Done | Used `.reduce()` with `/[a-z0-9-]+/g` regex to count clean word tokens from raw text. |
 
 ## Level 3 - Arrays
+
+**Status: ✅ Completed**
 
 | # | Problem | Status | What I Learned |
 |---|---------|--------|----------------|
@@ -293,30 +295,32 @@ node level-1-absolute-beginner/001-question.js
 
 ## 📁 Level 4 — Objects (121–140)
 
-**Status: 🔒 Not Started Yet**
+**Status: ✅ Completed**
 
 | # | Problem | Status |
 |---|---------|--------|
-| 121 | [Create User Object](./level-4-objects/121-question.js) | ⏳ Pending |
-| 122 | [Add Property](./level-4-objects/122-question.js) | ⏳ Pending |
-| 123 | [Delete Property](./level-4-objects/123-question.js) | ⏳ Pending |
-| 124 | [Update Property](./level-4-objects/124-question.js) | ⏳ Pending |
-| 125 | [Count Properties](./level-4-objects/125-question.js) | ⏳ Pending |
-| 126 | [Merge Objects](./level-4-objects/126-question.js) | ⏳ Pending |
-| 127 | [Clone Object](./level-4-objects/127-question.js) | ⏳ Pending |
-| 128 | [Object to Array](./level-4-objects/128-question.js) | ⏳ Pending |
-| 129 | [Array to Object](./level-4-objects/129-question.js) | ⏳ Pending |
-| 130 | [Deep Copy Object](./level-4-objects/130-question.js) | ⏳ Pending |
-| 131 | [Nested Object Access](./level-4-objects/131-question.js) | ⏳ Pending |
-| 132 | [Student Grade System](./level-4-objects/132-question.js) | ⏳ Pending |
-| 133 | [Product Inventory](./level-4-objects/133-question.js) | ⏳ Pending |
-| 134 | [Shopping Cart](./level-4-objects/134-question.js) | ⏳ Pending |
-| 135 | [Expense Tracker Logic](./level-4-objects/135-question.js) | ⏳ Pending |
-| 136 | [Employee Management](./level-4-objects/136-question.js) | ⏳ Pending |
-| 137 | [Library Management](./level-4-objects/137-question.js) | ⏳ Pending |
-| 138 | [Contact Book](./level-4-objects/138-question.js) | ⏳ Pending |
-| 139 | [User Authentication Logic](./level-4-objects/139-question.js) | ⏳ Pending |
-| 140 | [Blog Post Object](./level-4-objects/140-question.js) | ⏳ Pending |
+| # | Problem | Status | What I Learned |
+|---|---------|--------|----------------|
+| 121 | [Create User Object](./level-4-objects/121-question.js) | ✅ Done | Structured flat data into objects and used `this` context to dynamic lookup internal properties cleanly. |
+| 122 | [Add Property](./level-4-objects/122-question.js) | ✅ Done | Added new keys to mutable objects and used bracket syntax `obj[key]` for dynamic property mapping. |
+| 123 | [Delete Property](./level-4-objects/123-question.js) | ✅ Done | Used `delete` operator to modify heap references directly and rest `...` syntax for immutable data removal. |
+| 124 | [Update Property](./level-4-objects/124-question.js) | ✅ Done | Updated keys directly via reference pointers and leveraged object spread `...` to handle safe state modifications. |
+| 125 | [Count Properties](./level-4-objects/125-question.js) | ✅ Done | Converted object keys into iterable arrays using `Object.keys()` and injected runtime `typeof` guard checks. |
+| 126 | [Merge Objects](./level-4-objects/126-question.js) | ✅ Done | Combined multiple objects using spread `...` operator where right-side properties override matching keys during conflicts. |
+| 127 | [Clone Object](./level-4-objects/127-question.js) | ✅ Done | Learned that shallow copies leak nested reference pointers, and resolved it using `structuredClone()` for deep isolation. |
+| 128 | [Object to Array](./level-4-objects/128-question.js) | ✅ Done | Transformed flat objects into multi-dimensional key-value pairs using native `Object.entries()` utility. |
+| 129 | [Array to Object](./level-4-objects/129-question.js) | ✅ Done | Converted index-tracked arrays into structured object hashes to perform instantaneous O(1) key lookups. |
+| 130 | [Deep Copy Object](./level-4-objects/130-question.js) | ✅ Done | Replaced outdated `JSON` parsing hacks with native `structuredClone()` to copy deeply nested data structures safely. |
+| 131 | [Nested Object Access](./level-4-objects/131-question.js) | ✅ Done | Traversed multi-layered JSON payload trees safely using optional chaining `?.` to prevent application crashes. |
+| 132 | [Student Grade System](./level-4-objects/132-question.js) | ✅ Done | Computed dynamic scores via `Object.values().reduce()` and sorted records into standard performance brackets. |
+| 133 | [Product Inventory](./level-4-objects/133-question.js) | ✅ Done | Evaluated real-time inventory balances via `.reduce()` and used `.filter()` to capture low-stock alerts. |
+| 134 | [Shopping Cart](./level-4-objects/134-question.js) | ✅ Done | Managed checkout array mutations using `.findIndex()` and enforced safety bounds using `Math.max()` parameters. |
+| 135 | [Expense Tracker Logic](./level-4-objects/135-question.js) | ✅ Done | Optimized aggregations into a single-pass `.reduce()` loop and generated lightweight custom ID strings using base-36 tracking. |
+| 136 | [Employee Management](./level-4-objects/136-question.js) | ✅ Done | Implemented soft-delete patterns by updating status strings instead of destructively dropping dataset arrays. |
+| 137 | [Library Management](./level-4-objects/137-question.js) | ✅ Done | Handled resource allocations with inline availability booleans and synced entities across different memory registries. |
+| 138 | [Contact Book](./level-4-objects/138-question.js) | ✅ Done | Checked duplicate keys via `.some()`, built multi-field search inputs, and used `Object.assign()` for pointer updates. |
+| 139 | [User Authentication Logic](./level-4-objects/139-question.js) | ✅ Done | Masked custom hash structures behind private logic, applied uniform login errors, and managed dynamic active sessions. |
+| 140 | [Blog Post Object](./level-4-objects/140-question.js) | ✅ Done | Used regex to auto-generate SEO slugs, filtered draft lifecycles, and nested structured feedback comment arrays. |
 
 ---
 
