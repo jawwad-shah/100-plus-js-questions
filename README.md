@@ -297,8 +297,6 @@ node level-1-absolute-beginner/001-question.js
 
 **Status: ✅ Completed**
 
-| # | Problem | Status |
-|---|---------|--------|
 | # | Problem | Status | What I Learned |
 |---|---------|--------|----------------|
 | 121 | [Create User Object](./level-4-objects/121-question.js) | ✅ Done | Structured flat data into objects and used `this` context to dynamic lookup internal properties cleanly. |
