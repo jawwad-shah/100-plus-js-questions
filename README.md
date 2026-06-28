@@ -30,11 +30,11 @@ This repository is kept **open-source** so that other developers and absolute be
 |-------|-------|----------|--------|----------|
 | 1 | Absolute Beginner | 1–50 | ✅ Completed | `██████████` 50/50 |
 | 2 | Strings | 51–80 | ✅ Completed | `██████████` 30/30 |
-| 3 | Arrays | 81–120 | 🔒 Not Started | `░░░░░░░░░░` 0/40 |
-| 4 | Objects | 121–140 | 🔒 Not Started | `░░░░░░░░░░` 0/20 |
+| 3 | Arrays | 81–120 | ✅ Completed | `██████████` 40/40 |
+| 4 | Objects | 121–140 | ✅ Completed | `██████████` 20/20 |
 | 5 | DOM Projects | 141–170 | 🔒 Not Started | `░░░░░░░░░░` 0/30 |
 | 6 | Advanced / Core CS | 171–200 | 🔒 Not Started | `░░░░░░░░░░` 0/30 |
-| | | **Total** | | **50 / 200 Completed** |
+| | | **Total** | | **140 / 200 Completed** |
 
 ---
 
